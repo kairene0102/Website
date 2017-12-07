@@ -15,22 +15,22 @@
 .cost{
   flex: 1;
 }
-.ingredients{
+.animal{
   display: flex;
   margin: 4px;
   padding: 0px;
-  border: 2px solid green;
+  border: 2px solid blue;
   box-shadow: 1px 1px 2px #dddddd;
-  flex-direction:column;
+  flex-direction:row;
 }
-.ingredients:before{
-  content: "Ingredients";
+.animal:before{
+  content: "breed";
   font-weight: bold;
   background: #00AA00;
   color: #DDFFDD;
 }
 
-.ingredient, .ingredients:before{
+.animal, .animal:before{
   flex: 1;
   padding: 0.5em;
 }
