@@ -1,0 +1,65 @@
+.menu{
+  display: flex;
+}
+.foodItem {
+  display: flex;
+  flex-direction: column;
+}
+.foodItem .header{
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  flex: 2;
+}
+.cost{
+  flex: 1;
+}
+.animal{
+  display: flex;
+  margin: 4px;
+  padding: 0px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 2px #dddddd;
+  flex-direction:column;
+}
+.name:before{
+  content: "Name: ";
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #FF0000;
+}
+.type:before{
+  content: "Animal: ";
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #FF7400;
+}
+.breed:before{
+  content: "Breed: ";
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #FFDC00;
+}
+.sex:before{
+  content: "Sex: ";
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #11C805;
+}
+.age:before{
+  content: "Age: ";
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #0073FC;
+}
+.price:before{
+  content: "Price: ";
+  font-weight: bold;
+  background: #FFFFFF;
+  color: #7A00FC;
+}
+.animal, .animal:before{
+  flex: 1;
+  padding: 0.3em;
+}
